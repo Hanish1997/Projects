@@ -1,0 +1,67 @@
+#title{
+  background-image: url('image/adv.jpg');
+  background-repeat: no-repeat;
+}
+
+
+.row{
+
+  text-align: center;
+
+  max-width:100%;
+}
+.h1{
+  height: 100px;
+  text-align: center;
+}
+
+.navbar-brand{
+
+  font-size: 2.5rem;
+
+}
+.nav-item{
+  padding-right: 20px;
+  padding-top: 10px;
+}
+.nav-link{
+  font-size: 1.2rem;
+  color:
+}
+
+
+
+.icon{
+  color: #f45942;
+  margin-bottom: 25px;
+  margin-top: 50px;
+}
+.icon:hover{
+  color: #f44141;
+}
+#testimonials{
+  text-align: center;
+  background-image: url("image/beach.jpg");
+}
+.testimonial-image{
+   margin-top: 70px;
+  width: 180px;
+   border-radius:100%;
+}
+#cta{
+  background-color:#b3daff;
+  padding: 7% 18%;
+  color: #fff;
+  text-align: center;
+}
+.cta-heading{
+  font-family: "Montserrat-Black";
+  font-size: 3.5rem;
+  line-height: 2.5rem;
+}
+#footer{
+  text-align: center;
+  padding: 40px;
+  background-color: #203a63;
+  color: #fcfdff;
+}
