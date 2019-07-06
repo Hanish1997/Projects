@@ -1,0 +1,15 @@
+<%- include("partials/header") -%>
+    <h1>Home</h1>
+   <h3><%= starting %></h3>
+    <% arr.forEach(function(obj){ %>
+    <%  var len=300;%>
+    <%  var myString=obj.p_post;%>
+    <%  var trunString=myString.substring(0,len); %>
+      <h2><%= obj.p_title %></h2>
+      <p><%= trunString %> .....</p>
+      <form class="" action="/posts/<%= obj.p_title %>" >
+       <button type="submit" class="btn btn-primary btn-xs">Read More</button>
+    </form>
+  <%  });  %>
+
+<%- include("partials/footer") -%>
